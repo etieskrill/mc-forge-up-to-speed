@@ -22,6 +22,8 @@ The other way is to run the included gradlew wrapper script, which offers two op
 2. use `gradlew runServer`, which starts up a Minecraft server instance that can be connected to using whatever local
 minecraft client on `localhost` (the packed mod JAR has to be present in the local installation however)
 
+__Note__: the dedicated server will unrun itself on startup, until the [EULA](run/eula.txt) was accepted.
+
 Both options generate a pseudo `.minecraft` folder structure in the [run](run) folder, where one can install other mods,
 find logs and game saves as well as adapt game options manually.
 
